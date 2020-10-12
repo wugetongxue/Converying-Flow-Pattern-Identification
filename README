@@ -1,0 +1,21 @@
+The running evironment is UBUNTU 18.04. 
+The development tool is python 2.7, bash.
+
+In order to run the program, pybrain must be pip install.
+
+To get Fig. 9, Fig. 10 and Fig. 11, following command should be excuated.
+cd  ./submitted_data/prog/
+python signal_ceemd_dec.py
+
+To run adaptive CEEMD-ANN, the following command should be excuated.
+cd  ./submitted_data/prog/
+bash adaptive_ceemd_bp.sh
+
+To compare the proposed method with generals, the following command should be excuated.
+cd  ./submitted_data/compare_prog/
+bash adaptive_ceemd_ann_eva.sh
+bash general_ceemd_ann_eva.sh
+bash pybrain_ceemd_dtr.py
+bash pybrain_ceemd_svm.sh
+
+./data contains raw datas.
